@@ -2,18 +2,20 @@
 <html>
     <head>
         <title>API tester</title>
-        <link href=style.css type=text/css rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <form>
+        <form id="urlForm">
             <label>Enter API's URL here(Make sure to enter all key/value pairs in query)
                 <div>
-                    <input type=text name=apiurl id=apiurl></label>
+                    <input type="text" name="apiurl" id="apiurl"></label>
                 </div>
-            <input id=urlSubmit type=submit style="background-color:rgb(95, 218, 95)"/>
+                <div>
+                    <input type="submit" name="submitURLForm" id="submitUrlButton">
+                </div>
         </form>
         <h1>Webpage for testing API results</h1>
-        <p id=container></p>
+        <p id="container"></p>
     </body>
     <script src="./script.js"></script>
 </html>
